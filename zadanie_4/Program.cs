@@ -23,7 +23,7 @@ namespace zadanie_4
                 if (i == 0)
                 {
                     print1();
-                    Thread.Sleep(500);
+                    Thread.Sleep(400);
                     if (LancyjokLength == 1)
                     {
                         Console.Clear();
@@ -35,7 +35,7 @@ namespace zadanie_4
                 {
                     Console.Clear();
                     print2();
-                    Thread.Sleep(500);
+                    Thread.Sleep(400);
                     if (LancyjokLength == 2)
                     {
                         Console.Clear();
@@ -44,7 +44,7 @@ namespace zadanie_4
                     continue;
                 }
                 printn(i);
-                Thread.Sleep(500);
+                Thread.Sleep(400);
                 if (i == LancyjokLength - 1)
                 {
                     Console.Clear();
