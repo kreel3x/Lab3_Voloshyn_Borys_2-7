@@ -17,13 +17,13 @@ namespace zadanie_4
         static void Lancyjok()
         {
 
-            int LancyjokLength = random.Next(25);
+            int LancyjokLength = random.Next(20);
             for (int i = 0; i < LancyjokLength; i++)
             {
                 if (i == 0)
                 {
                     print1();
-                    Thread.Sleep(500);
+                    Thread.Sleep(400);
                     if (LancyjokLength == 1)
                     {
                         Console.Clear();
@@ -35,7 +35,7 @@ namespace zadanie_4
                 {
                     Console.Clear();
                     print2();
-                    Thread.Sleep(500);
+                    Thread.Sleep(400);
                     if (LancyjokLength == 2)
                     {
                         Console.Clear();
@@ -44,7 +44,7 @@ namespace zadanie_4
                     continue;
                 }
                 printn(i);
-                Thread.Sleep(500);
+                Thread.Sleep(400);
                 if (i == LancyjokLength - 1)
                 {
                     Console.Clear();
